@@ -1,4 +1,4 @@
- 
+
 /*
 Resetear el navegador
 */
@@ -90,15 +90,16 @@ img{
     width: 100%;
 }
 
-.col-4{
+.col-6{
   margin-top: 40%;
 }
 
 @media screen and (min-width: 780px){
   body {
-    background: url(img/sunny-day.jpg);
+    background: url(../img/sunny-day.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     }
   #medium{
     display: block !important;
@@ -108,9 +109,10 @@ img{
 
 @media screen and (min-width: 480px) and (max-width: 780px){
   body {
-    background: url(img/night.jpg);
+    background: url(../img/night.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     }
   #small{
     display: block !important;
@@ -119,9 +121,10 @@ img{
 
 @media screen and (max-width: 480px){
   body {
-    background: url(img/dawn.png);
+    background: url(../img/dawn.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     }
   #large{
     display: block !important;
