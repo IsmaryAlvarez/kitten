@@ -1,7 +1,5 @@
 
-/*
-Resetear el navegador
-*/
+/*WITHOUT STYLES*/
 
 * {
   box-sizing: border-box;
@@ -10,9 +8,7 @@ Resetear el navegador
   font-family: 'Roboto', sans-serif;
 }
 
-/*
-Crear container
-*/
+/*GRID CONTAINER*/
 
 .container {
   width: 100%;
@@ -31,9 +27,7 @@ Crear container
   padding: 10px;
 }
 
-/*
-formula para el ancho de las columnas (numero columnas / 12) * 100
-*/
+/*GRID*/
 
 .col-1 {
   width: 8.333333%;
@@ -83,7 +77,7 @@ formula para el ancho de las columnas (numero columnas / 12) * 100
   width: 100%;
 }
 
-/*MIS ESTILOS*/
+/*STYLES*/
 
 img{
     height: 100%;
@@ -91,9 +85,10 @@ img{
 }
 
 .col-6{
-  margin-top: 40%;
+  margin-top: 25%;
 }
 
+/*RESPONSIVE DESING*/
 @media screen and (min-width: 780px){
   body {
     background: url(../img/sunny-day.jpg);
